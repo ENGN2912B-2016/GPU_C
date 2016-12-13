@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>Brown_University_School_of_Engineering_logo.png</file>
+    </qresource>
+</RCC>

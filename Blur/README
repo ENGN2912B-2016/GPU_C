@@ -1,1 +1,4 @@
 Blur image based on GPU
+
+There are two blurred images, and the effect of lena image is not that good due to the color of lena's image.
+And another image is blurred pretty good.

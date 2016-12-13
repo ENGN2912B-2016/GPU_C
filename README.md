@@ -25,6 +25,8 @@ In Project -> Properties, NVCC Compiler needs to include path "/usr/local/Cellar
 
 There is a Makefile in each subdirectory, which is generated automatically by Nsight, so I'm not sure if it could work on your machine with this Makefile. I would suggest loading these codes by Nsight, which is how we did to run the code.
 
+For each code, the result would be two images, one is the original and the other one is the processed image. You might need to change the path to specific image in the code.
+
 User Interface:
 
 Commonents:Since CUDA and Qt are not compitable, or there is no appropriate way to let them be compitable due to time constraint.Our User interface is just a demo, the result is processed by our function block but not call from the interface.Ideally, it should run by the interface and output the result. Also, result image may not be show up because of the path issue. If you have such problem, you may replace the file path in program with your current file  path to fix the issue.
